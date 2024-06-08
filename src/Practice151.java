@@ -18,6 +18,17 @@ public class Practice151 {
 			i++;
 		}
 
+		/*
+		This is the answer of text book.
+		int i = 1;
+		int sum = 0;
+		while (i <= num) {
+			sum = sum + i;
+			i++;
+		}
+		
+		*/
+
 		System.out.print("１から" + num + "までの会計：" + result);
 		scanner.close();
 
