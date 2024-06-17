@@ -10,7 +10,7 @@ public class Training131_1_4 {
 		int[] scores = new int[99999];
 		int actualArrayLength = 0;
 
-		// START : Listen the user inputs and add to array.  
+		// START : Listen the user`s inputs and add to array.  
 		for (int i = 0; i < scores.length; i++) {
 			System.out.print("点数　" + (i + 1) + "　入力　>　");
 			int score = scanner.nextInt();
@@ -21,7 +21,7 @@ public class Training131_1_4 {
 			scores[i] = score;
 			actualArrayLength++;
 		}
-		// END : Listen the user inputs and add to array. 
+		// END : Listen the user`s inputs and add to array. 
 		// When user enter -1, calculate the total and average of scores.
 
 		// START: Calculate the total of scores.
