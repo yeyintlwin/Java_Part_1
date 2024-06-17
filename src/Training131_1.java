@@ -2,25 +2,20 @@ import java.util.Scanner;
 
 public class Training131_1 {
 
-	/*
-	 * Training131_1
-	 * Training131_1_1
-	 * Training131_1_2
-	 */
 	public static void main(String[] args) {
-
 		System.out.println("<点数集計>");
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.print("いくつか入力しますか？");
-		int countOfScores = scanner.nextInt();
+		int[] scores = new int[3];
 
-		int[] scores = new int[countOfScores];
+		System.out.print("点数　" + 0 + "　入力　>　");
+		scores[0] = scanner.nextInt();
 
-		for (int i = 0; i < countOfScores; i++) {
-			System.out.print("点数　" + (i + 1) + "　入力　>　");
-			scores[i] = scanner.nextInt();
-		}
+		System.out.print("点数　" + 1 + "　入力　>　");
+		scores[1] = scanner.nextInt();
+
+		System.out.print("点数　" + 2 + "　入力　>　");
+		scores[2] = scanner.nextInt();
 
 		double total = 0;
 		for (int score : scores) {
