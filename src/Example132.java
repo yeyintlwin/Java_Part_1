@@ -16,8 +16,8 @@ public class Example132 {
 		System.out.print("ID : " + user[0][0] + ", ");
 		System.out.println("氏名 : " + user[0][1]);
 
-		System.out.print("ID : " + user[１][0] + ", ");
-		System.out.println("氏名 : " + user[１][1]);
+		System.out.print("ID : " + user[1][0] + ", ");
+		System.out.println("氏名 : " + user[1][1]);
 
 		System.out.print("ID : " + user[2][0] + ", ");
 		System.out.println("氏名 : " + user[2][1]);
