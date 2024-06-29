@@ -51,14 +51,17 @@ public class Training131_2_3 {
 			}
 			// START : find the max indexs in votes.
 
+			if (numOfPersons < 1)
+				return;
+
 			// START: make output string with "to".
 			String topListString = new String();
 			for (int i = 0; i < topList.size() - 1; i++) {
 				String top = topList.get(i);
-				topListString += top + (topList.size() > 1 ? "と" : "");
+				topListString += "「" + top + "」" + (topList.size() > 1 ? "と" : "");
 			}
-			if (topList.size() > 1) {
-				topListString += topList.get(topList.size() - 1);
+			if (topList.size() >= 1) {
+				topListString += "「" + topList.get(topList.size() - 1) + "」";
 			}
 			// END: make output string with "to".
 
@@ -70,7 +73,6 @@ public class Training131_2_3 {
 			e.printStackTrace();
 			//System.out.println("エラーが発生しました。");
 		}
-
 	}
 
 }
