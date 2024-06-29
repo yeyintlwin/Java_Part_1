@@ -4,7 +4,7 @@ public class Example132 {
 	public static void main(String[] args) {
 		String[][] user = new String[3][2];
 
-	+	user[0][0] = "P0111";
+		user[0][0] = "P0111";
 		user[0][1] = "鈴木晶子";
 		
 		user[1][0] = "G1010";
