@@ -6,8 +6,16 @@ package com.yeyintlwin;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello, World!");
+
+		// Parameter
+		boolean result = login("", "");
+		System.out.println(result);
 
 	}
 
+	// Attribute
+	static boolean login(String userName, String password) {
+
+		return true;
+	}
 }
