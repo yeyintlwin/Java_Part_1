@@ -19,7 +19,7 @@ public class Example141 {
 			scanner.close();
 
 		} catch (Exception e) {
-
+			System.out.println("入力値は不正です。");
 		}
 	}
 
